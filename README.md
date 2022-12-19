@@ -5,3 +5,4 @@
 - Bilangan deret
 - Fizz Buzz
 - Palindrome
+- Vowel & Consonant
