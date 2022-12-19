@@ -6,3 +6,5 @@
 - Fizz Buzz
 - Palindrome
 - Vowel & Consonant
+- Fiboncci
+- Bilangan tunggal
