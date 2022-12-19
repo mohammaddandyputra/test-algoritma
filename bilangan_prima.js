@@ -1,15 +1,19 @@
 const Prime = (number) => {
-    let factor;
-    for (let i = 0; i < number; i++) {
-      factor = 0;
-      for (let j = 1; j <= number; j++) {
-        if (i % j == 0) {
-          factor++;
+    const number_prime = []
+    for(let i = 1; i <= number; i++) {
+      let bill = 0
+      for(let a = 1; a <= i; a++) {
+        if(i%a == 0) {
+          bill = bill + 1
         }
       }
 
-      if (factor == 2 && i !== 2) console.log(i);
+      if(bill == 2) {
+        number_prime.push(i)
+      }
     }
+
+    console.log(number_prime)
 }
 
 Prime(30)
